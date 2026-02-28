@@ -1,45 +1,31 @@
 {
   "name": "security.pinnacle.name",
   "version": "1.0.0",
-  "private": true,
+  "description": "Professional security-focused website for pinnacle.name",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "typecheck": "tsc --noEmit"
+    "lint": "next lint"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Tylorgood/security.pinnacle.name.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Tylorgood/security.pinnacle.name/issues"
-  },
-  "homepage": "https://github.com/Tylorgood/security.pinnacle.name#readme",
   "dependencies": {
     "next": "^16.1.6",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "tailwindcss": "^3.3.0",
-    "autoprefixer": "^10.4.0",
-    "postcss": "^8.4.0",
-    "@hookform/resolvers": "^3.3.0",
-    "react-hook-form": "^7.43.0",
-    "zod": "^3.22.0",
-    "next-seo": "^5.8.0",
-    "lucide-react": "^0.263.0",
-    "framer-motion": "^10.0.0"
+    "@hookform/resolvers": "^3.3.4",
+    "@tailwindcss/forms": "^0.5.7",
+    "framer-motion": "^10.16.4",
+    "next-seo": "^5.10.3",
+    "react-hook-form": "^7.47.0",
+    "zod": "^3.22.4"
   },
   "devDependencies": {
-    "typescript": "^5.0.0",
-    "@types/node": "^18.0.0",
-    "@types/react": "^18.0.0",
-    "@types/react-dom": "^18.0.0",
-    "eslint": "^8.0.0",
-    "eslint-config-next": "^16.1.6"
-  }
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.3.6"
+  },
+  "keywords": ["security", "website", "pinnacle", "nextjs"],
+  "author": "Tylorgood",
+  "license": "MIT"
 }
