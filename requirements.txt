@@ -1,0 +1,2 @@
+# This file is here to trigger Render.com build process
+# The actual dependencies are in package.json
