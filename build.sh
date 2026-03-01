@@ -11,3 +11,4 @@ echo "🏗️  Building Next.js app..."
 npm run build
 
 echo "✅ Build completed successfully!"
+echo "📁 Next.js build output in .next directory"

@@ -1,5 +1,6 @@
+# Render.com configuration for Next.js app
 build:
-  command: npm run build
+  command: chmod +x build.sh && ./build.sh
   publish: .next
   environment:
     NODE_VERSION: 20.9.0
