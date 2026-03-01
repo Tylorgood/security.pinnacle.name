@@ -1,5 +1,5 @@
 import React from 'react';
-import { NextSeo } from 'next-seo'';
+import { NextSeo } from 'next-seo';
 import { useForm } from 'react-hook-form';
 import * as zod from 'zod';
 
