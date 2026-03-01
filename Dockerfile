@@ -2,10 +2,7 @@ FROM node:20.9.0-alpine
 
 WORKDIR /app
 
-# Install yarn
-RUN npm install -g yarn
-
-# Install dependencies
+# Install dependencies (yarn is already in Node.js Alpine)
 COPY package*.json ./
 RUN yarn install --frozen-lockfile
 

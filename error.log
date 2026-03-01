@@ -1,0 +1,6 @@
+npm WARN ERESOLVE overriding peer dependency
+npm ERR! code ENOVERSIONS
+npm ERR! No versions available for escalation
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/teamupcnc/.npm/_logs/2026-03-01T01_42_59_490Z-debug-0.log
