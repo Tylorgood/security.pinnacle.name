@@ -2,15 +2,18 @@ FROM node:20.9.0-alpine
 
 WORKDIR /app
 
+# Install pnpm
+RUN npm install -g pnpm
+
 # Install dependencies
 COPY package*.json ./
-RUN npm install
+RUN pnpm install
 
 # Copy source code
 COPY . .
 
 # Build the app
-RUN npm run build
+RUN pnpm run build
 
 # Start the app
-CMD ["npm", "start"]
+CMD ["pnpm", "start"]
